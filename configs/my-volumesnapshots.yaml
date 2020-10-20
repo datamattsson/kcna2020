@@ -1,0 +1,24 @@
+---
+apiVersion: snapshot.storage.k8s.io/v1beta1
+kind: VolumeSnapshot
+metadata:
+  name: my-server-snapshot-0
+spec:
+  source:
+    persistentVolumeClaimName: redis-data-my-redis-master-0
+---
+apiVersion: snapshot.storage.k8s.io/v1beta1
+kind: VolumeSnapshot
+metadata:
+  name: my-replica-snapshot-0
+spec:
+  source:
+    persistentVolumeClaimName: redis-data-my-redis-slave-0
+---
+apiVersion: snapshot.storage.k8s.io/v1beta1
+kind: VolumeSnapshot
+metadata:
+  name: my-replica-snapshot-1
+spec:
+  source:
+    persistentVolumeClaimName: redis-data-my-redis-slave-1

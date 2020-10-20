@@ -1,0 +1,17 @@
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: ioping
+spec:
+  containers:
+  - name: ioping
+    image: datamattsson/ioping:edge
+    args: [ "/dev/xvda" ]
+    volumeDevices:
+    - name: volume
+      devicePath: /dev/xvda
+  volumes:
+  - name: volume
+    persistentVolumeClaim:
+      claimName: my-block-pvc
