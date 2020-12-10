@@ -2,7 +2,8 @@
 
 This repo contains all the files used for the CSI tutorial at KubeCon North America 2020 Virtual Event.
 
-[![Introduction to CSI Primitives](http://img.youtube.com/vi/AnfAd6goq-o/0.jpg)](http://www.youtube.com/watch?v=AnfAd6goq-o "Introduction to CSI Primitives")
+[![Introduction to CSI Primitives](https://repository-images.githubusercontent.com/304162862/2bace080-3a40-11eb-85e0-caf11400f993)](http://www.youtube.com/watch?v=AnfAd6goq-o "Introduction to CSI Primitives")
+Watch on [YouTube](http://www.youtube.com/watch?v=AnfAd6goq-o)!
 
 ## Contents
 
